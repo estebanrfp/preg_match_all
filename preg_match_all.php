@@ -1,8 +1,5 @@
 <?php 
 function filtro($txt){
-	//metodo que sirve para parsear tildes y caracteres que no se muestran bien
-	//esto es alternativa a mostrar la variable directamente
-	//$bbc = array("[tube]","[/tube]");
 	
 	preg_match_all('~\[tube](.[^>]*)\[/tube]~', $txt, $match_link);
 	preg_match_all('~\[swf](.[^>]*)\[/swf]~', $txt, $match_swf_link);
