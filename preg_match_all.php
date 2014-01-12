@@ -6,6 +6,7 @@ function filtro($txt){
 	preg_match_all('~\[unity](.[^>]*)\[/unity]~', $txt, $match_unity_link);
 	preg_match_all('~\[slider](.[^>]*)\[/slider]~', $txt, $match_slider_link);
 	preg_match_all('~\[github](.[^>]*)\[/github]~', $txt, $match_github_link);
+	
         
 //tube         
     $NumberOfVid = count($match_link[1]);
