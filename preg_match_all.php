@@ -162,4 +162,6 @@ function string2KeyedArray($string, $delimiter = ',', $kv = '=') {
     //return $texto5;	
 	return $texto5;
 	}//end function
+
+	
 ?>
