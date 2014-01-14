@@ -8,7 +8,7 @@ function filtro($txt){
 	preg_match_all('~\[github](.[^>]*)\[/github]~', $txt, $match_github_link);
 	
         
-//tube         
+//youtube        
     $NumberOfVid = count($match_link[1]);
     if ( $NumberOfVid > 0 ){
            for ( $i=0; $i < count($match_link[1]) ; $i++ ) {
@@ -22,7 +22,7 @@ function filtro($txt){
 	        };//end for 
 	 }
 
-//swf
+//flash
     $NumberOfSwf = count($match_swf_link[1]);
     if ( $NumberOfSwf > 0 ){
 		
@@ -41,7 +41,7 @@ function filtro($txt){
 	 }	 
 
 
-//unity
+//unity 
     $NumberOfUnity = count($match_unity_link[1]);
 	
     if ( $NumberOfUnity > 0 ){
