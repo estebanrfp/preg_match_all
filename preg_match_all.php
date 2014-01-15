@@ -78,7 +78,7 @@ function string2KeyedArray($string, $delimiter = ',', $kv = '=') {
     }
     return $ka;
   }
-} // string2KeyedArray
+} // end string2KeyedArray
 
     $NumberOfSlider = count($match_slider_link[1]);
     if ( $NumberOfSlider > 0 ){
@@ -162,8 +162,5 @@ function string2KeyedArray($string, $delimiter = ',', $kv = '=') {
     //return $texto5;	
 	return $texto5;
 	}//end function
-
-
-
 
 ?>
