@@ -1,4 +1,5 @@
 <?php 
+
 function filtro($txt){
 	
 	preg_match_all('~\[tube](.[^>]*)\[/tube]~', $txt, $match_link);
