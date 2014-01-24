@@ -7,8 +7,7 @@ function filtro($txt){
 	preg_match_all('~\[unity](.[^>]*)\[/unity]~', $txt, $match_unity_link);
 	preg_match_all('~\[slider](.[^>]*)\[/slider]~', $txt, $match_slider_link);
 	preg_match_all('~\[github](.[^>]*)\[/github]~', $txt, $match_github_link);
-	
-        
+	      
 //youtube        
     $NumberOfVid = count($match_link[1]);
     if ( $NumberOfVid > 0 ){
@@ -148,8 +147,7 @@ function string2KeyedArray($string, $delimiter = ',', $kv = '=') {
 									   <hr>                           
 	                                   <script type="text/javascript"> 
                                        $('."body".').repo({ user: '.$str["usuario"].', name: '.$str["project"].'});                                     
-                                       </script>';
-		
+                                       </script>';	
 					
 	        };//end for 
 	 }	
